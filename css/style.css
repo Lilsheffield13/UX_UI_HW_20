@@ -83,17 +83,23 @@ transform : rotate(-135deg);
  }
  .j-container {
  	margin-top: 10vw;
+    /*
  	margin-left: 28%;
+    */
     margin-bottom: 8vw;
+    text-align: center;
  }
 .case-lead {
+    /*
     padding-left: 21%;
+    */
     font-size: 24px;
+    text-align: center;
  }
 .nav-item {
     padding-left: 8%;
     background-color: #DDB263;
-    border-radius: 10%;
+    border-radius: 10px;
     font-size: 18px;
 }
 .names {
@@ -126,6 +132,10 @@ transform : rotate(-135deg);
     padding-right: 18%;
     margin-bottom: 5vw;
 }
+.j-content {
+    display: grid;
+    justify-items: center;
+}
 .highlight-1 {
     padding-left: 2%;
     padding-right: 18%;
@@ -139,8 +149,10 @@ transform : rotate(-135deg);
     border-width: 4px;
 }
 .HSDC-device {
+    /*
     padding-left: 35%;
     padding-right: 35%;
+    */
     padding-top: 1vw;
     padding-bottom: 2vw;
 }
@@ -191,6 +203,7 @@ transform : rotate(-135deg);
     padding-bottom: 4vw;
     color: #F86100;
     padding-left: 8vw;
+    font-size: 45px;
 }
 .user-list {
     list-style: none;
@@ -219,14 +232,15 @@ transform : rotate(-135deg);
 #one-text {
     background: linear-gradient(90deg, #113C48 -66.03%, rgba(255, 255, 255, 0) 74.88%);
     transform: matrix(1, 0, 0, 1, 0, 0);
-    align-content: center;
+    
 }
 #one-number {
     color: #F86100;
+    padding-left: 1vw;
 }
 #one-center {
-    padding-top: 1vw;
-    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-left: 2vw;
     margin: 0;
 }
 .id-two {
@@ -239,6 +253,12 @@ transform : rotate(-135deg);
 }
 #two-number {
     color: #F86100;
+    padding-right: 1vw;
+}
+#two-center {
+    padding-top: 0.5vw;
+    padding-right: 2vw;
+    margin: 0vw;
 }
 .id-three {
     display:flex;
@@ -249,6 +269,12 @@ transform : rotate(-135deg);
 }
 #three-number {
     color: #F86100;
+    padding-left: 1vw;
+}
+#three-center {
+    padding-top: 0.5vw;
+    padding-left: 2vw;
+    margin: 0vw;
 }
 .id-four {
     display:flex;
@@ -260,4 +286,132 @@ transform : rotate(-135deg);
 }
 #four-number {
     color: #F86100;
+    padding-right: 1vw;
+}
+#four-center {
+    padding-right: 2vw ;
+    padding-top: 0.5vw;
+    margin: 0vw;
+}
+.contextid {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.prototyping {
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+}
+.proto-title {
+    padding-bottom: 1vw;
+}
+.proinline-pic {
+    height: 60vw;
+    padding-left: 23%;
+    padding-top: 1vw;
+}
+.proinline-text {
+    background-color: #F6ECD8;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    border-radius: 25px;
+}
+.proinline-p {
+    padding: 12%;
+}
+#rebrandHSDC {
+    padding-top: 1vw;
+    max-width: 100%;
+    padding-bottom: 1vw;
+}
+#sitemap {
+    padding-top: 1vw;
+    max-width: 100%;
+    padding-bottom: 1vw;
+}
+.outcomes {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+#outcomes-gif {
+    max-width: 100%;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+}
+#outcomesAB {
+    max-width: 100%;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+}
+.conclusion {
+    padding-top: 1vw;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-bottom: 2vw;
+    margin: 0;
+}
+.footer {
+    background-color: #292929;
+    padding-left: 18%;
+    padding-right: 18%;
+    align-content: center;
+    display: grid;
+    margin: 0;
+}
+#footerline {
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    max-width: 100%;
+}
+.socialfooter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vw;
+    max-width: 25%;
+}
+.rightsfooter {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen(jumbotron) and (min-width: 600px) {}
+@media (max-width:600px){
+ .tools {
+   width: 500px; // new width for screen <600px
+   height: 200px; // new height for screen <600px
+ }
 }
