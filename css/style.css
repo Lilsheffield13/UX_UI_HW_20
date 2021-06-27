@@ -237,6 +237,7 @@ transform : rotate(-135deg);
 #one-number {
     color: #F86100;
     padding-left: 1vw;
+    font-weight: bold;
 }
 #one-center {
     padding-top: 0.5vw;
@@ -254,6 +255,7 @@ transform : rotate(-135deg);
 #two-number {
     color: #F86100;
     padding-right: 1vw;
+    font-weight: bold;
 }
 #two-center {
     padding-top: 0.5vw;
@@ -270,6 +272,7 @@ transform : rotate(-135deg);
 #three-number {
     color: #F86100;
     padding-left: 1vw;
+    font-weight: bold;
 }
 #three-center {
     padding-top: 0.5vw;
@@ -287,6 +290,7 @@ transform : rotate(-135deg);
 #four-number {
     color: #F86100;
     padding-right: 1vw;
+    font-weight: bold;
 }
 #four-center {
     padding-right: 2vw ;
